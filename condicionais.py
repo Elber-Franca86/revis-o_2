@@ -16,3 +16,12 @@ def par_impar():
         print("O numero", str(numero), "é impar.")
 
 par_impar()
+
+def media_aluno():
+    nota = int(input("Digite a nota: "))
+    if (nota >= 7):
+        print("Aluno aprovado !!")
+    else:
+        print("Reprovado!")
+              
+media_aluno()
