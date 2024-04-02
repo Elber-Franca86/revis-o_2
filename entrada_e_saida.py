@@ -31,3 +31,12 @@ def divisao():
     print("A divisão do numero", str(n1),  "por dois é: ", dividendo)
 
 divisao()
+
+
+def indice_de_massa():
+    peso = int(input("Digite seu peso: "))
+    altura = int(input("Digite sua altura: "))
+    imc = peso/(altura*altura)
+    print("O seu Imc é: ", str(imc))    
+
+indice_de_massa()
