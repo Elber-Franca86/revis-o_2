@@ -6,8 +6,8 @@ saudar()
 
 
 def somar():
-    primeiro_numero = int(input("Digite o primeiro numero: ")) #acrescenta p int para
-    segundo_numero = int(input("Digite o segundo numero: "))   #indicar que não é mais uma string
+    primeiro_numero = float(input("Digite o primeiro numero: ")) #acrescenta p int para
+    segundo_numero = float(input("Digite o segundo numero: "))   #indicar que não é mais uma string
     soma = primeiro_numero + segundo_numero
 
     print("A soma dos numeros é: ", soma)
