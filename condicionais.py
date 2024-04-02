@@ -18,7 +18,7 @@ def par_impar():
 par_impar()
 
 def media_aluno():
-    nota = int(input("Digite a nota: "))
+    nota = float(input("Digite a nota: "))
     if (nota >= 7):
         print("Aluno aprovado !!")
     else:
