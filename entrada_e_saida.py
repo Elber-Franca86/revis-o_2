@@ -28,7 +28,7 @@ multiplicar()
 
 
 def divisao():
-    print("===Divisão===")
+    print("===Divisão POR DOIS===")
     n1 = int(input("Digite um numero: "))
     n2 = int(input("Digite o segundo numero: "))
     dividendo = n1 / n2
